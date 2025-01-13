@@ -1,0 +1,7 @@
+run = "npm start"
+entrypoint = "gemini/try.js"
+
+[env]
+APPID = "cli_a70e2978e27b500c"
+SECRET = "oR6YfsJY3KcCyC6N5mSu2dSJ1JRGhHRH"
+API_KEY = "AIzaSyCD36kuVVNNteZ-4LMUl0kAJhFgShcZ8Lo"

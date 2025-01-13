@@ -1,0 +1,13 @@
+{
+    "name": "feishu-gemini-bot",
+    "version": "1.0.0",
+    "main": "gemini/try.js",
+    "dependencies": {
+        "aircode": "^0.8.0",
+        "@larksuiteoapi/node-sdk": "^1.23.0",
+        "axios": "^1.6.7"
+    },
+    "scripts": {
+        "start": "node gemini/try.js"
+    }
+}
