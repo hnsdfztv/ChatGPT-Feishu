@@ -1,8 +1,12 @@
 {
-  "tasks": {
-    "start": "deno run --allow-net --allow-env --allow-read --allow-write src/main.ts"
-  },
-  "imports": {
-    "@/": "./"
-  }
+    "tasks": {
+        "dev": "deno run --allow-net --allow-env --allow-read main.ts",
+        "deploy": "deployctl deploy --project=your-project main.ts"
+    },
+    "importMap": {
+        "imports": {
+            "oak": "https://deno.land/x/oak/mod.ts",
+            "std/": "https://deno.land/std/"
+        }
+    }
 }

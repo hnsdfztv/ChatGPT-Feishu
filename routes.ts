@@ -3,7 +3,7 @@ import { handleEvent } from "./event.ts";
 
 export const router = new Router();
 
-router.post("/webhook", async (ctx) => {
+router.post("/", async (ctx) => {
     const body = await ctx.request.body().value;
     const result = await handleEvent(body, ctx);
     ctx.response.body = result;

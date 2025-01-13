@@ -1,4 +1,5 @@
-import { EventDB, MsgTable } from "./sqlite.ts";
+// import { EventDB, MsgTable } from "./sqlite.ts";
+import { EventDB, MsgTable } from "./db.ts";
 import { GeminiApi } from "./gemini.ts";
 import { getConfig } from "./config.ts";
 import { Client } from "https://deno.land/x/lark_sdk/mod.ts";
